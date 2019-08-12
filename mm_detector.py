@@ -29,8 +29,8 @@ class MMDetector(FaceDetectorBase):
        # self.model=init_detector('mmdetection/configs/resnet18_cascadercnn.py', checkpoint='mmdetection/work_dirs/resnet18_cascadercnn.pth', device='cuda:0')
         #self.model=init_detector('mmdetection/configs/resnet18_retinanet.py', checkpoint='mmdetection/work_dirs/resnet18_retinanet_epoch_10.pth', device='cuda:0')
        # self.model=init_detector('mmdetection/configs/widerface_resnet50.py', checkpoint='mmdetection/work_dirs/resnet50_cascadercnn.pth', device='cuda:0')
-        #self.model=init_detector('resnet50_cascadercnn_light/widerface_resnet50_light.py', checkpoint='resnet50_cascadercnn_light/epoch_21.pth', device='cuda:0')
-        self.model=init_detector('ga_retina_r50/widerface_fp16_ga_retinanet_r50_fpn_128.py', checkpoint='ga_retina_r50/epoch_21.pth', device='cuda:0')
+        self.model=init_detector('resnet50_cascadercnn_light/widerface_resnet50_light.py', checkpoint='resnet50_cascadercnn_light/epoch_21.pth', device='cuda:0')
+        #self.model=init_detector('ga_retina_r50/widerface_fp16_ga_retinanet_r50_fpn_128.py', checkpoint='ga_retina_r50/epoch_21.pth', device='cuda:0')
         #if self.cfg.get('cudnn_benchmark', False):
         #self.model=init_detector('mv2_addons/mobilenet_lite_retina.py', checkpoint='mv2_addons/epoch_2.pth', device='cuda:0')
         #     torch.backends.cudnn.benchmark = True
