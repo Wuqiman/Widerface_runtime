@@ -1,3 +1,6 @@
+#mkdir resnet50_cascadercnn_light in /app/face_det_eval and download the trained model and config file which are on baidu cloud disk.
+#trained model and config file are  on baidu network disk link:https://pan.baidu.com/s/11Fk9qkeEwp3-rzKldCex_w and extraction code:te6p 
+
 # WIDER2019FaceDetectionRuntimeContainerExample
 This repo provides an example docker container for runtime evaluation for the WIDER 2019 challenge track: face detection accuracy and runtime.
 
